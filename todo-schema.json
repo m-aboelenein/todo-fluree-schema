@@ -1,0 +1,42 @@
+[{
+  "_id": "_collection",
+  "name": "todos",
+  "doc": "The Task The User Listed"
+},
+{
+  "_id": "_collection",
+  "name": "users",
+  "doc": "The App User"
+}, 
+{
+  "_id": "_predicate",
+  "name": "todos/content",
+  "doc": "The Todo Action",
+  "type": "string"
+},
+{
+ "_id": "_predicate",
+ "name": "todos/user",
+ "doc": "The User Owning The Todo",
+ "type": "ref",
+ "restrictCollection": "users"
+},
+{
+  "_id": "_predicate",
+  "name": "todos/completed",
+  "doc": "The Todo status",
+  "type": "string"
+},
+{
+ "_id": "_predicate",
+ "name": "users/name",
+ "doc": "The User name",
+ "type": "string"
+},
+{
+  "_id": "_predicate",
+  "name": "users/auth",
+  "doc": "The User Auth Record",
+  "type": "ref",
+  "restrictCollection": "auth"
+}]

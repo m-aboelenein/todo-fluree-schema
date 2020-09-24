@@ -1,7 +1,7 @@
-# todo-fluree-schema
+# Todo-fluree-schema
 The Fluree Schema For The React Native Todo App
 
-
+```
 ---- Todo
 |   |
 |    -- content (string)
@@ -14,3 +14,5 @@ The Fluree Schema For The React Native Todo App
      -- Name (string)
     |
      -- auth (ref)
+
+```
